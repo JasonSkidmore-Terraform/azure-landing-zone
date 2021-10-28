@@ -1,0 +1,25 @@
+
+resource_group_name = ""
+location            = "eastus"
+domain              = ""
+subdomain           = "test"
+namespace           = "testing"
+service_name        = ""
+service_image       = ""
+instances_count     = 1
+
+subscription_id = ""
+client_id       = ""
+client_secret   = ""
+tenant_id       = ""
+
+vnet_address_space  = "10.0.0.0/16"
+
+public_ip_allowlist = [
+    "" # Your Public IP
+  ]
+
+tags = {
+environment = "Learning" # In case your using tags
+owner       = "YOUR_NAME"
+}
